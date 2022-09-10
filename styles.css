@@ -1,0 +1,68 @@
+body{
+  background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /*MOST IMPORTANT */
+  background-color: #EFEFEF;
+}
+  /* Location of the image background-image: url(images/background-photo.jpg); /* Background image is centered
+  vertically and horizontally at all times background-position: center center; /* Background image doesn’t tile
+  background-repeat: no-repeat; /* Background image is fixed in the viewport so that it doesn’t move when the content’s height
+  is greater than the image’s height
+   background-attachment: fixed; /* This is what makes the background image rescale based on the container’s size background-size: cover;
+    /* Set a background color that will be displayed while the background image is loading
+    background-color: ; } */
+.box {
+  position: relative;
+  background-color: hsl(30, 38%, 92%);
+  margin: 10% auto 10% auto;
+  width: 68.75rem;
+  height: 40rem;
+  box-shadow: 0px 13px 6px 5px rgba(0,0,0,0.21);
+}
+
+.internal-box{
+    background-color: white;
+  width: 34rem;
+  height: 20rem;
+  margin: 10rem auto;
+  position: absolute;
+  left: 17.375rem;
+  right:17.375rem;
+
+}
+
+
+img {
+  height: 20rem;
+}
+
+.FirstHeading {
+  font-size: 8px;
+  float: right;
+  font-family: monospace;
+  letter-spacing: 8px;
+  color: grey;
+  padding-right: 212px;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+
+h1{
+
+    position: absolute;
+    font-size: 30px;
+    width: 35%;
+    float: right;
+    top: 40px;
+    right: 115px;
+}
+.paragraph{
+  position: absolute;
+  float: right;
+  width: 35%;
+right: 114px;
+bottom: 32px;
+}
